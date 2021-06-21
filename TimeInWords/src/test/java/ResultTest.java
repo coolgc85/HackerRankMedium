@@ -58,4 +58,12 @@ class ResultTest {
 
     }
 
+    @org.junit.jupiter.api.Test
+    void timeInWordsNineMinutesPastFive() {
+
+        String result = Result.timeInWords(5, 9);
+        assertEquals("nine minutes past five", result);
+
+    }
+
 }
