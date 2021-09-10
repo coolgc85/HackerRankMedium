@@ -1,4 +1,4 @@
-import org.junit.jupiter.api.Test;
+import io.coolgc.tiw.Result;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,14 +1,7 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
+package io.coolgc.tiw;
+
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
+
 
 public class Result {
 
@@ -57,9 +50,9 @@ public class Result {
        minutes.put(23,"twenty three minutes past");
        minutes.put(24,"twenty four minutes past");
        minutes.put(25,"twenty five minutes past");
-       minutes.put(26,"twenty minutes past");
-       minutes.put(27,"twenty minutes past");
-       minutes.put(28,"twenty minutes past");
+       minutes.put(26,"twenty six minutes past");
+       minutes.put(27,"twenty seven minutes past");
+       minutes.put(28,"twenty eight minutes past");
        minutes.put(29,"twenty nine minutes past");
        minutes.put(30,"half past");
        minutes.put(31,"twenty nine minutes to");
