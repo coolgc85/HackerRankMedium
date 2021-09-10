@@ -5,8 +5,14 @@ import java.util.*;
 
 public class Result {
 
+
+
     private static final Map<Integer, String> hours;
     private static final Map<Integer, String> minutes;
+
+    private Result(){
+        throw new IllegalStateException("Utility class");
+    }
 
    static{
        hours = new HashMap<>();
@@ -98,7 +104,7 @@ public class Result {
 
     public static String timeInWords(int h, int m) {
 
-        String timeInWordsFinal = null;
+        String timeInWordsFinal;
         String hoursWords;
 
         if(m <= 30){

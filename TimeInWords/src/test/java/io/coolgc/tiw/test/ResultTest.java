@@ -1,3 +1,5 @@
+package io.coolgc.tiw.test;
+
 import io.coolgc.tiw.Result;
 
 import static org.junit.jupiter.api.Assertions.*;
